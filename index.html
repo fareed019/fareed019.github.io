@@ -1,9 +1,31 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My GitHub Page</title>
-  </head>
-  <body>
-    <h1>Hello World! Welcome to my website.</h1>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <style>
+        :root { --bg-color: #ffffff; --text-color: #222222; --link-color: #0066cc; --accent-bg: #f8f9fa; --border-color: #e0e0e0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: var(--text-color); max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+        header { margin-bottom: 2.5rem; }
+        h1 { margin-bottom: 0.2rem; }
+        nav { margin: 1.5rem 0; border-bottom: 1px solid var(--border-color); padding-bottom: 0.8rem; }
+        nav a { margin-right: 1.5rem; text-decoration: none; color: var(--text-color); }
+        a { color: var(--link-color); text-decoration: none; }
+        .pub-table { width: 100%; border-collapse: collapse; }
+        .pub-table td { padding: 0.75rem; border-bottom: 1px solid var(--border-color); }
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+        .project-card { border: 1px solid var(--border-color); padding: 1rem; border-radius: 6px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>PhD Scholar | Developer</p>
+        <nav><a href="#about">About</a> <a href="#pubs">Publications</a></nav>
+    </header>
+    <section id="about"><h2>About</h2><p>Short bio...</p></section>
+    <section id="pubs"><h2>Publications</h2><table class="pub-table"><tr><td>2026 - Title</td></tr></table></section>
+</body>
 </html>
+
